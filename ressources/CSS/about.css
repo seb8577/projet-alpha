@@ -1,0 +1,148 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #e3c0a6
+        - p     #000
+
+        - icon  
+
+        - button        #
+        - button:hover  #
+*/
+
+/* FONTS
+        - default
+        - subtitle
+*/
+
+/* CSS DIRECTORY
+        1. global
+        2. header
+        3. profil
+        4. footer 
+*/
+
+
+/* GLOBAL */
+
+body {
+    background-color: #392c22;
+}
+
+h1 {
+    color: #e3c0a6;
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: #000;
+}
+
+/* HEADER */
+
+header {
+    background-color: #000;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1:after {
+    display: block;
+    height: 5px;
+    width: 150px;
+    background-color: #392c22;
+    content: " ";
+    margin: 0 auto;
+}
+
+/* PROFIL */
+
+section {
+    padding-top: 30px;
+}
+
+.text {
+    background-color: #fff;
+    text-align: justify;
+    height: 562px;
+    width: 100%;
+    padding: 0;
+
+}
+
+.text-profile {
+    position: absolute;
+    top: 30%;
+    padding: 30px;
+}
+.img-seb {
+    position: relative;
+    width: 100%;
+}
+.img-text {
+    position: relative;
+    padding-right:0;
+    padding-left: 0;
+}
+/* PAGINATION */
+
+ul {
+    margin: 30px 0 20px 0;
+    padding-bottom: 25px;
+}
+
+li .page-link {
+    color: #000;
+}
+
+li .page-link:hover {
+    color: #000;
+    border: 1px solid #e3c0a6;
+}
+
+.pagination {
+    border-radius: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    width: 100%;
+}
+
+.copyright {
+    padding: 20px;
+}
+
+.copyright-text {
+    color: #fff;
+    text-align: center;
+}
+
+p span {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

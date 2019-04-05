@@ -1,0 +1,160 @@
+/* DOCUMENT INFORMATION
+        - document : site web photo/portfolio tzn
+        - version : 1.0.0
+        - author : S. Teillet
+*/
+
+/* COLORS default body text
+        - h1    #000
+        - p     #000
+
+        - icon  
+
+        - gallery        #909090   
+        - gallery:hover  #000
+*/
+
+/* FONTS
+        - h1    Kalam
+        - P     default
+*/
+
+/* CSS DIRECTORY
+        1. global
+        2. header
+        3. gallery
+        4. pagination
+        5. footer
+*/
+
+
+/* GLOBAL */
+
+html {
+    background-color: #392c22;
+}
+
+h2 {
+    color: #392c22;
+    margin-top: 20px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #000;
+    padding-bottom: 25px;
+}
+
+.title {
+    text-align: center;
+    color: #e3c0a6;
+    padding: 20px;
+}
+
+/* GALLERY */
+
+section {
+    background-color: #392c22;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.p-text {
+    color: #000;
+    margin-top: 20px;
+}
+
+.bgbox {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+audio {
+    outline: 0;
+}
+
+video {
+    outline: 0;
+    max-width: 38%;
+}
+
+.bgbox-cheetah {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 5px;
+    width: 150px;
+    background-color: #392c22;
+    content: " ";
+    margin: 0 auto;
+}
+
+h5 a {
+    color: #000;
+}
+
+h5 a:hover {
+    color: #12981d;
+}
+
+h5 span {
+    font-style: italic;
+}
+
+.img-photo {
+    display: block;
+    width: 100%;
+}
+
+.img-photo2 {
+    padding: 0;
+}
+
+/* PAGINATION */
+
+ul {
+    background-color: #392c22;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+
+li .page-link {
+    color: #000;
+}
+
+li .page-link:hover {
+    color: #000;
+    background-color: #e3c0a6;
+    border: 1px solid #e3c0a6;
+}
+
+.pagination {
+    border-radius: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    height: 60px;
+    padding: 20px;
+}
+
+.copyright-text {
+    color: #fff;
+    text-align: center;
+}
+
+p span {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
